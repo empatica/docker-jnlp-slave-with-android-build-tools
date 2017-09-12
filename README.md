@@ -12,3 +12,5 @@ https://about.gitlab.com/2016/11/30/setting-up-gitlab-ci-for-android-projects/
 * https://developer.android.com/studio/command-line/sdkmanager.html
 * https://stackoverflow.com/questions/17963508/how-to-install-android-sdk-build-tools-on-the-command-line
 
+ANDROID SDK HOME: https://stackoverflow.com/questions/3109473/moving-default-avd-configuration-folder-android
+

@@ -1,4 +1,4 @@
-FROM empatica/jnlp-slave-with-java-build-tools:3.3-1
+FROM empatica/jnlp-slave-with-java-build-tools
 MAINTAINER Giannicola Olivadoti <go@empatica.com>
 
 USER root
@@ -10,8 +10,8 @@ RUN dpkg --add-architecture i386 && \
 
 ENV ANDROID_SDK_HOME /opt/android-sdk
 ENV ANDROID_SDK_TOOLS_VERSION 3859397
-ENV ANDROID_SDK_VERSION 25
-ENV ANDROID_SDK_BUILD_TOOLS_VERSION 25.0.3
+ENV ANDROID_SDK_VERSION 26
+ENV ANDROID_SDK_BUILD_TOOLS_VERSION 26.0.1
 
 ARG ANDROID_SDK_TOOLS_DOWNLOAD_SHA256=444e22ce8ca0f67353bda4b85175ed3731cae3ffa695ca18119cbacef1c1bea0
 

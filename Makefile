@@ -1,5 +1,5 @@
 IMAGE = empatica/jnlp-slave-with-android-build-tools
-VERSION = 25-1
+VERSION = 26-1
 
 .PHONY: build push release
 
